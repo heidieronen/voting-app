@@ -1,8 +1,8 @@
 apiversion: v1
 kind: Pod
-metadata
+metadata:
   name: worker-app-pod
-  labeles:
+  labels:
     name: worker-app-pod
     app: demo-voting-app
 
